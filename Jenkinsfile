@@ -1,18 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'
-        jdk 'JDK17'
-    }
-
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/tharunmvm4444-prog/java-maven-pipeline.git'
-            }
-        }
 
         stage('Build') {
             steps {

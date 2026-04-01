@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/java-maven-pipeline.git'
+                git 'https://github.com/tharunmvm4444-prog/java-maven-pipeline.git'
             }
         }
 
